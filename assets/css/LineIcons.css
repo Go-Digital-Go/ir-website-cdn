@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
   font-family: 'LineIcons';
   src:  url('../fonts/LineIcons.eot?y2l643');
   src:  url('../fonts/LineIcons.eot?y2l643#iefix') format('embedded-opentype'),
@@ -7,11 +7,11 @@
     url('../fonts/LineIcons.svg?y2l643#LineIcons') format('svg');
   font-weight: normal;
   font-style: normal;
-}  
+}
 
 [class^="lni-"], [class*=" lni-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'LineIcons' !important; 
+  font-family: 'LineIcons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
