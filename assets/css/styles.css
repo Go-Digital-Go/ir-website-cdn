@@ -33,6 +33,31 @@
     01.COMMON css 
 ===========================*/
 /* @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700,800&display=swap"); */
+
+
+
+
+#logo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-style: inherit;
+  font-variant: normal;
+  }
+
+  #mini-logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-style: inherit;
+    font-variant: normal;
+    }
+
+
 body {
   font-family: "Nunito", sans-serif;
   font-weight: normal;
@@ -124,6 +149,33 @@ p {
   height: 100%; }
 
 /*===== All Button Style =====*/
+.quote-btn {
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid #f14836;
+  padding: 0 30px;
+  font-size: 16px;
+  height: 55px;
+  line-height: 51px;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  background-color: #f14836; }
+
 .main-btn {
   display: inline-block;
   font-weight: 700;
@@ -480,7 +532,7 @@ p {
   transition: all 0.3s ease-out 0s; }
 
 .headroom {
-  will-change: transform;
+  /* will-change: transform; */
   transition: transform 200ms linear; }
 
 .headroom--not-top {
@@ -499,8 +551,8 @@ p {
   .headroom--not-top .navbar {
     padding: 10px 0; }
 
-.headroom--unpinned {
-  transform: translateY(-100%); }
+/* .headroom--unpinned {
+  transform: translateY(-100%); } */
 
 .navbar {
   padding: 25px 0;
@@ -787,12 +839,12 @@ p {
     color: #f14836;
     display: contents; }
 .header-hero-content .text {
-  max-width: 490px;
+  max-width: 59navbarSupportedContent0px;
   font-size: 16px;
   padding-top: 40px; }
 .header-hero-content .header-singup {
   position: relative;
-  margin-top: 120px;
+  margin-top: 50px;
   z-index: 9; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-hero-content .header-singup {
