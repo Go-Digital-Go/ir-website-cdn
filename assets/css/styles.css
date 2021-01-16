@@ -82,6 +82,10 @@ button:focus {
   text-decoration: none;
   outline: none; }
 
+
+#noDecoration{
+  text-decoration: none;
+  }
 a:focus,
 a:hover {
   text-decoration: none; }
