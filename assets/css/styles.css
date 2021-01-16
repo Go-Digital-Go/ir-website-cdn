@@ -536,7 +536,7 @@ p {
   transition: transform 200ms linear; }
 
 .headroom--not-top {
-  transform: translateY(0%);
+  /* transform: translateY(0%); */
   position: fixed;
   z-index: 99;
   background-color: #fff;
